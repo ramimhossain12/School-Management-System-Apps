@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name : Ramim Hossain"
+        android:layout_marginTop="5dp"
+        android:id="@+id/nameTextView1ID"
+        android:textSize="25sp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Age : 25"
+        android:layout_marginTop="5dp"
+        android:id="@+id/ageTextView1ID"
+        android:textSize="25sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gender : Male"
+        android:layout_marginTop="5dp"
+        android:id="@+id/genderTextView1ID"
+        android:textSize="25sp"/>
+
+
+</LinearLayout>

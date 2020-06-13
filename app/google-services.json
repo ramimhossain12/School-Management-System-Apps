@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "616087578565",
+    "firebase_url": "https://schoolinformationsystem-c0072.firebaseio.com",
+    "project_id": "schoolinformationsystem-c0072",
+    "storage_bucket": "schoolinformationsystem-c0072.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:616087578565:android:74e19939ef31a3d505cdac",
+        "android_client_info": {
+          "package_name": "com.example.schoolinformationsystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "616087578565-1edlk89l2307uvd2bahcp7sgk2r8nvmk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.schoolinformationsystem",
+            "certificate_hash": "3654b88e99502851dae05ee5fe44971cb17e1cbf"
+          }
+        },
+        {
+          "client_id": "616087578565-l0aikfkmicq0orhtlh3nuesfh9c2dt6o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAiykVGVVJ2X2kdsA8uM7iFCRguUWX3Ay8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "616087578565-l0aikfkmicq0orhtlh3nuesfh9c2dt6o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

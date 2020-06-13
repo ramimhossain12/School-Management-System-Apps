@@ -1,0 +1,270 @@
+<resources>
+    <string name="app_name">School Management System</string>
+
+
+    <string name="login"><u>I already have an account , login</u></string>
+    <string name="register_text"><u>Register</u></string>
+    <string name="login_text"><u>Login</u></string>
+
+    <string name="check_your_bank_activities">Check your  activities</string>
+
+
+    <string name="about1">Studying in Computer Science and Engineering at Daffodil International University. Passionate about android  and ios app development. Love to build android and ios application.</string>
+
+    <string name="about2">Email:ramim.cse.info@gmail.com</string>
+    <string name="about3">01852068420</string>
+
+
+    <string name="button_Text">Exit</string>
+    <string name="title_Text">Alert title</string>
+    <string name="message_Text">Do you want to exit ?</string>
+
+
+    <string name="ab1">Coursera : \n
+
+        https://www.coursera.org/
+
+
+
+</string>
+
+    <string name="ab2">
+        Lynda.com : \n
+        https://www.lynda.com/
+
+    </string>
+
+    <string name="ab3">
+
+        Udemy : \n
+        https://www.udemy.com/
+    </string>
+
+    <string name="ab4">
+Udacity : \n
+        https://www.udacity.com/
+
+
+    </string>
+
+    <string name="ab5">
+
+        Khan Academy : \n
+https://www.khanacademy.org
+    </string>
+
+
+    <string name="ab6">
+Codecademy : \n
+        https://www.codecademy.com/
+
+    </string>
+    <string name="title_activity_maps">Map</string>
+
+
+    <array name="genres">
+
+        <item>Class 1</item>
+        <item>Class 2</item>
+        <item>Class 3</item>
+        <item>Class 4</item>
+        <item>Class 5</item>
+        <item>Class 6</item>
+        <item>Class 7</item>
+        <item>Class 8</item>
+        <item>Class 9</item>
+        <item>Class 10</item>
+        <item>Class 11</item>
+        <item>Class 12</item>
+    </array>
+
+
+    <string name="mp">1. How many days do we have in a week?
+
+Answer: Seven
+
+2. How many days are there in a year?
+
+Answer: 365 (not a leap year)
+
+3. How many colours are there in a rainbow?
+
+Answer: 7
+
+4. Which animal is known as the ‘Ship of the Desert?’
+
+Answer: Camel
+
+5. How many letters are there in the English alphabet?
+
+Answer: 26
+
+6. How many consonants are there in the English alphabet?
+
+Answer: 21
+
+7. How many sides are there in a triangle?
+
+Answer: Three
+
+8. In which direction does the sun rise?
+
+Answer: East
+
+9. What do you call a type of shape that has five sides?
+
+Answer: Pentagon
+
+10. Which month of the year has the least number of days?
+
+Answer: February
+
+11. Which is the largest flower in the world?
+
+Answer: Rafflesia
+
+12. Which are the vowels in the English alphabet series?
+
+Answer: A, E, I , O, U
+
+13. How many zeros are there in one hundred thousand?
+
+Answer: Five</string>
+
+    <string name="mn">14. How many hours are there in two days?
+
+Answer: 48 hours (24+24)
+
+15. How many months of the year have 31 days?
+
+Answer: 7 (January, March, May, July, August, October and December)
+
+16. How many weeks are there in one year?
+
+Answer: 52
+
+Know More: Top 16 Education Trends For 2019
+
+17. Which are the colours in a rainbow?
+
+Answer: Violet, Indigo, Blue, Green, Yellow, Orange, Red
+
+18. Which animal is called King of Jungle?
+
+Answer: Lion
+
+19. How many bones does an adult human have?
+
+Answer: 206
+
+20. Who was the first man to walk on the moon?
+
+Answer: Neil Armstrong
+
+21. How many primary colours are there?
+
+Answer: Three (red, yellow, blue)
+
+22. Which way is anti-clockwise, left or right?
+
+Answer: Left
+
+23. How many equal sides does an isosceles triangle have?
+
+Answer: 2
+
+24. How many millimetres are there in 1cm?
+
+Answer: 10
+
+25. How many days are there in the month of February in a leap year?
+
+Answer: 29 days
+
+26. Which is the nearest star to planet earth?
+
+Answer: Sun
+
+27. What do you call a house made of ice?
+
+Answer: Igloo
+
+28. Which is the longest river on the earth?
+
+Answer: Nile
+
+29. Which is the principal source of energy for earth?
+
+Answer: Sun
+
+30. Which is the coldest location in the earth?
+
+Answer: East Antarctica
+
+31. How many lungs does the human body have?
+
+Answer: Two
+
+32. What is the standard taste of the water?
+
+Answer: Water is tasteless
+
+Teacher app ad banner
+
+33. Which country is called the land of rising sun?
+
+Answer: Japan
+
+34. Which is the tallest mountain in the world?
+
+Answer: Mount Everest
+
+35. Which is the fastest animal on the land?
+
+Answer: Cheetah
+
+36. Which continent is known as ‘Dark’ continent?
+
+Answer: Africa
+
+    Who is the inventor of electricity?
+
+Answer: Benjamin Franklin
+
+38. Which is the largest animal in the world?
+
+Answer: Blue whale
+
+39. Which planet is known as the Red Planet?
+
+Answer: Mars
+
+40. Which is the tallest animal on the earth?
+
+Answer: Giraffe
+
+41. Which is the most sensitive organ in our body?
+
+Answer: Skin
+
+42. Which is the most spoken language in the world?
+
+Answer: Mandarin (Chinese)
+
+43. Which two parts of the body continue to grow for your entire life?
+
+Answer: Nose and Ears
+
+44. The largest ‘Democracy’ in the world?
+
+Answer: India
+
+45. Who is the inventor of Television?
+
+Answer: John Logie Baird
+
+46. Which is the largest ocean in the world?
+
+Answer: Pacific Ocean</string>
+
+</resources>

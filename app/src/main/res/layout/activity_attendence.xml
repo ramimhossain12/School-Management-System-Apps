@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    android:background="#34495e"
+    tools:context=".AttendenceActivity">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/fg"/>
+
+        <EditText
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:textColorHint="#ffff"
+            android:hint="Enter ID :"
+            android:id="@+id/idEitText4ID"/>
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Name :"
+            android:textColor="#fff"
+            android:textColorHint="#ffff"
+            android:layout_marginTop="10dp"
+            android:id="@+id/nameEitText4ID"/>
+
+        <Button
+            android:layout_width="320dp"
+            android:layout_height="60dp"
+            android:text="Save"
+            android:backgroundTint=" #e74c3c"
+            android:layout_marginLeft="70dp"
+            android:background="@drawable/brt_shape"
+            android:id="@+id/saveButton4ID"
+            android:layout_marginTop="15dp"/>
+
+        <Button
+            android:layout_width="290dp"
+            android:layout_height="60dp"
+            android:background="@drawable/brt_shape"
+            android:text="Show"
+            android:backgroundTint=" #229954"
+            android:layout_marginLeft="90dp"
+            android:id="@+id/showButton4ID"
+            android:layout_marginTop="15dp"/>
+        <Button
+            android:layout_width="260dp"
+            android:layout_height="60dp"
+            android:text="Update"
+            android:layout_marginLeft="120dp"
+            android:background="@drawable/brt_shape"
+            android:backgroundTint=" #3498db "
+            android:id="@+id/updateButton4ID"
+            android:layout_marginTop="15dp"/>
+
+
+        <Button
+            android:layout_width="230dp"
+            android:layout_height="60dp"
+            android:text="Delete"
+            android:layout_marginLeft="150dp"
+            android:background="@drawable/brt_shape"
+            android:backgroundTint="#a6acaf"
+            android:id="@+id/deleteButton4ID"
+            android:layout_marginTop="15dp"/>
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>
+
+
+</LinearLayout>

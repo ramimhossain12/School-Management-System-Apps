@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".AddStudentActivity">
+
+    <EditText
+        android:id="@+id/editTextname24ID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textPersonName"
+
+      />
+
+    <Spinner
+        android:id="@+id/spinner24ID"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:entries="@array/genres"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="62dp" />
+
+    <Button
+        android:id="@+id/button24ID"
+        android:layout_width="250dp"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:textColor="#fff"
+        android:background="@drawable/bop_shape"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:text="Add Student"
+        tools:layout_editor_absoluteY="100dp" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:cacheColorHint="#4CAF50"
+        android:background="#FF9800"
+        android:layout_marginTop="10dp"
+        android:id="@+id/listviewArtistID"/>
+</LinearLayout>

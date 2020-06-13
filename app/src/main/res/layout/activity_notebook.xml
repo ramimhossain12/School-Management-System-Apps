@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background=" #131212"
+    tools:context=".NotebookActivity">
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:background="#000000"
+        android:fontFamily="@font/gotham"
+        android:text="Welcome To Notebook"
+        android:textColor="#FFFFFF"
+        android:gravity="center_horizontal" />
+
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:gravity="start"
+        android:background="#4CAF50"
+        android:layout_marginTop="17dp"
+        android:textColor="#160F0F"
+        android:lines="16"
+        android:id="@+id/editTextID"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/saveButtonID"
+            android:layout_gravity="center"
+            android:textStyle="italic"
+            android:textColor="#090909"
+            android:background="@drawable/brt_shape"
+            android:layout_marginRight="20dp"
+            android:backgroundTint="#FBFBF9"
+            android:text="Save"
+
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonID"
+            android:backgroundTint="#E41B1B"
+            android:text="Exit"
+            android:textStyle="italic"
+            android:background="@drawable/brt_shape"
+            android:textColor="#090909"
+            style="@style/Widget.AppCompat.Button.Colored">
+
+        </Button>
+
+
+    </LinearLayout>
+
+</LinearLayout>
