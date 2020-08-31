@@ -8,10 +8,10 @@
     -->
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.CAMERA"/>
-    <uses-feature android:name="android.hardware.camera"/>
-    <uses-feature android:name="android.hardware.camera.autofocus"/>
+    <uses-permission android:name="android.permission.CAMERA" />
 
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
 
     <application
         android:allowBackup="true"
@@ -20,7 +20,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".BarCodeScanner"></activity>
+        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".BarCodeScanner" />
         <activity android:name=".MapActivity2" />
         <activity android:name=".DatePickerActivity" />
         <activity android:name=".AddStudentActivity" />
@@ -51,7 +52,7 @@
         <activity android:name=".HomeActivity" />
         <activity android:name=".SignUpACtivity" />
         <activity android:name=".SignInActivity" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".SpalashScreenActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
