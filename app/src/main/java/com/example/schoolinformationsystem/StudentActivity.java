@@ -66,7 +66,7 @@ public class StudentActivity extends AppCompatActivity implements View.OnClickLi
                 startActivity(new Intent(StudentActivity.this,SchoolActivity.class));
                 break;
             case R.id.googleMapID:
-                startActivity(new Intent(StudentActivity.this,MapsActivity.class));
+                startActivity(new Intent(StudentActivity.this,MapActivity2.class));
                 break;
         }
 

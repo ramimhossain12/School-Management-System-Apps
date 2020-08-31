@@ -1,4 +1,5 @@
 apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
 apply plugin: 'com.google.gms.google-services'
 
 android {
@@ -49,6 +50,11 @@ dependencies {
     implementation 'com.muddzdev:styleabletoast:2.0.1'
     //image libary
     implementation 'com.github.denzcoskun:ImageSlideshow:0.0.6'
+    implementation "androidx.core:core-ktx:+"
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
 
 
+}
+repositories {
+    mavenCentral()
 }

@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="horizontal"
     android:padding="10dp"
-    android:background="#000000"
+
     tools:context=".StudentActivity">
 
 
@@ -243,8 +243,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:orientation="vertical"
-                    android:background="#FFEB3B"
-                    android:backgroundTint="#009688"
+                    android:background="#CDCBBA"
+                    android:backgroundTint="#7FB8B3"
                     android:gravity="center">
                     <ImageView
                         android:layout_width="64dp"
@@ -289,7 +289,7 @@
                     android:layout_height="match_parent"
                     android:orientation="vertical"
                     android:background="#FFEB3B"
-                    android:backgroundTint="#009688"
+                    android:backgroundTint="#FFC107"
                     android:gravity="center">
                     <ImageView
                         android:layout_width="64dp"
@@ -335,7 +335,7 @@
                     android:layout_height="match_parent"
                     android:orientation="vertical"
                     android:background="#FFEB3B"
-                    android:backgroundTint="#009688"
+                    android:backgroundTint="#FF9800"
                     android:gravity="center">
                     <ImageView
                         android:layout_width="64dp"
