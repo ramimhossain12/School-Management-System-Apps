@@ -31,7 +31,7 @@ public class HomeActivity extends AppCompatActivity {
 
         CircleMenu menu = findViewById(R.id.circleMenu);
         menu.setMainMenu(Color.parseColor("#212121"), R.drawable.ic_home_white_24dp, R.drawable.ic_home_white_24dp);
-        menu.addSubMenu(Color.parseColor("#7986cb"), R.drawable.teacher);
+        menu.addSubMenu(Color.parseColor("#7986cb"), R.drawable.qrcode);
         menu.addSubMenu(Color.parseColor("#ededed"), R.drawable.school);
         menu.addSubMenu(Color.parseColor("#FBF6D9"), R.drawable.like);
         menu.addSubMenu(Color.parseColor("#8c9eff"), R.drawable.evaluation);
@@ -46,8 +46,8 @@ public class HomeActivity extends AppCompatActivity {
             @Override
             public void onMenuSelected(int i) {
                 if (i == 0) {
-                    Toast.makeText(HomeActivity.this, "Teacher", Toast.LENGTH_SHORT).show();
-                    Intent in = new Intent(HomeActivity.this, TeacherActivity.class);
+                    Toast.makeText(HomeActivity.this, "QR Code", Toast.LENGTH_SHORT).show();
+                    Intent in = new Intent(HomeActivity.this, BarCodeScanner.class);
                     startActivity(in);
 
                 } else if (i == 1) {

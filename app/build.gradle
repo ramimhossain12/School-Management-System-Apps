@@ -53,6 +53,9 @@ dependencies {
     implementation "androidx.core:core-ktx:+"
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
 
+    //barcode
+    implementation 'me.dm7.barcodescanner:zxing:1.9'
+
 
 }
 repositories {
