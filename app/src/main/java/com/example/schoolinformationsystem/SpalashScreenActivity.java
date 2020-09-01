@@ -37,7 +37,7 @@ public class SpalashScreenActivity extends AppCompatActivity {
     private void startApp() {
 
         //progressbar finish
-        Intent intent= new Intent(SpalashScreenActivity.this,MainActivity.class);
+        Intent intent= new Intent(SpalashScreenActivity.this,ChooseActivity.class);
         startActivity(intent);
         finish();
 
