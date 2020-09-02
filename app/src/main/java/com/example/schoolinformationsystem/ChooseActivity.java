@@ -29,7 +29,7 @@ public class ChooseActivity extends AppCompatActivity {
             public void onClick(View v) {
                  if (optaion1.isChecked()){
 
-                     Intent i = new Intent(ChooseActivity.this,TeacherActivity.class);
+                     Intent i = new Intent(ChooseActivity.this,TeacherLoginActivity.class);
                      startActivity(i);
                  }
                  else if (optaion2.isChecked()){
