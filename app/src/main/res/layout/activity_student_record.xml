@@ -55,11 +55,47 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Submit"
+        android:text="Save"
         android:textSize="20sp"
         android:layout_gravity="center"
         android:layout_marginTop="10dp"
         android:id="@+id/btnID"
+        android:textAllCaps="false"
+
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fetch"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+       android:id="@+id/fetchID"
+        android:textAllCaps="false"
+
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Remove"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:id="@+id/removeID"
+        android:textAllCaps="false"
+
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Clear"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:id="@+id/clearID"
         android:textAllCaps="false"
 
         />
