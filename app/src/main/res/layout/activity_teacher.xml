@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:weightSum="13"
+    android:background="@drawable/topp"
     tools:context=".TeacherActivity">
 
 
@@ -15,18 +16,10 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="2">
+        android:layout_weight="3">
 
-        <TextView
-            android:id="@+id/textBuddy"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_centerInParent="true"
-            android:textStyle="bold"
-            android:text="Teacher personal Information"
-           android:fontFamily="@font/pp"
-            android:textColor="#000000"
-            android:textSize="30sp" />
+
+
 
     </RelativeLayout>
 
@@ -35,11 +28,12 @@
 
         android:id="@+id/mainGrid"
         android:layout_width="match_parent"
-        android:layout_height="70dp"
-        android:layout_weight="8"
+        android:layout_height="0dp"
+        android:layout_weight="6"
         android:alignmentMode="alignMargins"
         android:columnCount="2"
-        android:background=" #2c3e50 "
+
+        android:layout_marginTop="90dp"
         android:columnOrderPreserved="false"
         android:padding="40dp"
         android:rowCount="4">
@@ -49,7 +43,6 @@
         <!-- Column 1 -->
         <androidx.cardview.widget.CardView
             android:id="@+id/cardHomeID"
-
             android:layout_width="10dp"
             android:layout_height="90dp"
             android:layout_rowWeight="1"
@@ -66,20 +59,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="left"
-
                 android:layout_margin="16dp"
                 android:orientation="horizontal">
-
-
-
-
-
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="0.1 Home"
-                    android:fontFamily="casual"
+                    android:text="Home"
+
                     android:textColor="@android:color/black"
                     android:textSize="25sp"
                     android:layout_gravity="right"
@@ -119,10 +106,7 @@
 
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="0.2 Student Record"
-                    android:fontFamily="casual"
-
-
+                    android:text="Student Record"
                     android:textColor="@android:color/black"
                     android:textSize="20sp"
                     android:textStyle="bold" />
@@ -163,11 +147,10 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="0.3 Attendance"
-
+                    android:text="Attendance"
                     android:textColor="@android:color/black"
                     android:layout_gravity="right"
-                    android:fontFamily="casual"
+
                     android:textSize="20sp"
                     android:textStyle="bold" />
 
@@ -199,15 +182,10 @@
                 android:orientation="horizontal">
 
 
-
-
-
-
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="5. Add Student"
-                    android:fontFamily="casual"
+                    android:text="Add Student"
                     android:textColor="@android:color/black"
                     android:layout_gravity="right"
                     android:textSize="25sp"

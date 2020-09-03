@@ -20,7 +20,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".TeacherLoginActivity"></activity>
+        <activity android:name=".PhoneNumberActivity"></activity>
+        <activity android:name=".TeacherLoginActivity" />
         <activity android:name=".ChooseActivity" />
         <activity android:name=".MainActivity" />
         <activity android:name=".BarCodeScanner" />

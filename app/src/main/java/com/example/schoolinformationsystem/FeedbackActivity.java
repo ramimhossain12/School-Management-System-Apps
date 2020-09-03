@@ -58,6 +58,7 @@ public class FeedbackActivity extends AppCompatActivity implements View.OnClickL
         try {
             String name = nameeditText.getText().toString();
             String massege = massegeEditText.getText().toString();
+            String text =  textView.getText().toString();
             if (v.getId() == R.id.sendButtonID) {
 
                 Intent intent = new Intent(Intent.ACTION_SEND);
@@ -68,6 +69,7 @@ public class FeedbackActivity extends AppCompatActivity implements View.OnClickL
 
                 intent.putExtra(Intent.EXTRA_SUBJECT, "Feedback from App");
                 intent.putExtra(Intent.EXTRA_TEXT, "Name :" + name + "\n Message :" + massege);
+                intent.putExtra(Intent.EXTRA_TEXT, "Rate :" + text + "\n Message :" + massege);
                 startActivity(Intent.createChooser(intent, "Feedback with"));
 
 
@@ -85,44 +87,5 @@ public class FeedbackActivity extends AppCompatActivity implements View.OnClickL
 
     }
 
-    //menu item find
-
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        MenuInflater menuInflater = getMenuInflater();
-        menuInflater.inflate(R.menu.menu, menu);
-        return super.onCreateOptionsMenu(menu);
-    }
-
-    //menu item selected
-    @Override
-    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
-
-        int id = item.getItemId();
-
-        if (item.getItemId()==R.id.shareID){
-
-            Intent intent = new Intent(Intent.ACTION_SEND);
-            intent.setType("text/type");
-            String subject = "Information Apps";
-            String body ="This app  is very useful .\n com.example.schoolinformationsystem";
-            intent.putExtra(Intent.EXTRA_SUBJECT,subject);
-            intent.putExtra(Intent.EXTRA_TEXT,body);
-            startActivity(Intent.createChooser(intent,"share with"));
-
-
-
-
-
-
-
-        }else if (id == R.id.aboutId){
-
-            return true;
-        }
-
-
-        return super.onOptionsItemSelected(item);
-    }
 
     }

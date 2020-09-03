@@ -117,11 +117,12 @@
             <Button
                 android:layout_width="160dp"
                 android:layout_height="wrap_content"
-                android:drawableLeft="@drawable/facebook"
+                android:drawableLeft="@drawable/contact"
                 android:backgroundTint="#0E0D0D"
                 android:textColor="#fff"
+                android:id="@+id/facebookID"
                 android:textAlignment="center"
-                android:text="facebook"/>
+                android:text="Phone"/>
 
 
 

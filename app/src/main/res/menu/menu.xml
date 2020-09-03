@@ -12,18 +12,32 @@
 
 
 
+    <item
+
+        android:id="@+id/dateID"
+        android:title="DatePick"
+        app:showAsAction="never"
+        android:icon="@android:drawable/ic_menu_share"/>
 
 
 
     <item
-        android:id="@+id/aboutId"
+
+        android:id="@+id/aboutID"
+        android:title="About"
+        app:showAsAction="never"
+        android:icon="@android:drawable/ic_menu_share"/>
+
+
+    <item
+        android:id="@+id/rateappId"
         android:title="Rate Apps"
         app:showAsAction="never" >
 
         <menu>
 
             <item
-                android:id="@+id/moreId"
+                android:id="@+id/moreappId"
                 android:title=" More Apps"
                 app:showAsAction="never" />
         </menu>
@@ -35,11 +49,6 @@
 
 
 
-
-    <item
-
-        android:title="Log out"
-        android:id="@+id/signoutID"/>
 
 
 

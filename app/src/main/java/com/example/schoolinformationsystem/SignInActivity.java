@@ -32,6 +32,7 @@ public class SignInActivity extends AppCompatActivity implements View.OnClickLis
     private EditText signInEmailEditText,signInPasswordEditText;
     private TextView signUpTextView;
     private Button signInButton;
+    private  Button facebook;
     private ProgressBar progressBar;
     private FirebaseAuth mAuth;
 
@@ -63,6 +64,7 @@ public class SignInActivity extends AppCompatActivity implements View.OnClickLis
         progressBar = findViewById(R.id.progressbarID);
 //for google login
         btnGoogle = findViewById(R.id.btngoogle);
+        facebook = findViewById(R.id.facebookID);
 
 
         signUpTextView.setOnClickListener(this);
@@ -79,6 +81,17 @@ public class SignInActivity extends AppCompatActivity implements View.OnClickLis
             @Override
             public void onClick(View v) {
                 signIn();
+            }
+        });
+
+
+        //for facebook
+
+        facebook.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(SignInActivity.this,PhoneNumberActivity.class);
+                startActivity(intent);
             }
         });
 

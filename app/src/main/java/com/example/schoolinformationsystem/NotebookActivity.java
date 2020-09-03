@@ -44,13 +44,6 @@ public class NotebookActivity extends AppCompatActivity implements View.OnClickL
         exitButton.setOnClickListener(this);
     }
 
- 
-
-
-
-
-
-
 
 
     public  void writeToFile(String text){

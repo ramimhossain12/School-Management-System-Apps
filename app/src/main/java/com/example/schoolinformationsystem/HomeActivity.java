@@ -75,24 +75,5 @@ public class HomeActivity extends AppCompatActivity {
     }
 
 
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
 
-        getMenuInflater().inflate(R.menu.menu,menu);
-        return super.onCreateOptionsMenu(menu);
-    }
-
-    @Override
-    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
-
-        if (item.getItemId()==R.id.signoutID){
-
-            FirebaseAuth.getInstance().signOut();
-            finish();
-            Intent o = new Intent(getApplicationContext(),SignInActivity.class);
-            startActivity(o);
-        }
-
-        return super.onOptionsItemSelected(item);
-    }
 }

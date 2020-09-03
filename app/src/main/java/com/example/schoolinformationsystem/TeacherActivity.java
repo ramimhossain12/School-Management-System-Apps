@@ -37,7 +37,7 @@ public class TeacherActivity extends AppCompatActivity  implements View.OnClickL
       switch (v.getId()){
 
           case R.id.cardHomeID:
-              startActivity(new Intent(this, HomeActivity.class));
+              startActivity(new Intent(this, TeacherLoginActivity.class));
 
               StyleableToast.makeText(this,"Home Button Is Click !",R.style.exampleToast).show();
 
