@@ -13,3 +13,4 @@ An app for parents. Rather than communicating via email, schools can update pare
 8. material Design
 9. Image Library
 10. Stylish Animation
+11. Shared preference
