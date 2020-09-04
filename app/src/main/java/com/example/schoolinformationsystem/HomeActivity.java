@@ -33,7 +33,7 @@ public class HomeActivity extends AppCompatActivity {
         menu.setMainMenu(Color.parseColor("#212121"), R.drawable.ic_home_white_24dp, R.drawable.ic_home_white_24dp);
         menu.addSubMenu(Color.parseColor("#7986cb"), R.drawable.qrcode);
         menu.addSubMenu(Color.parseColor("#ededed"), R.drawable.school);
-        menu.addSubMenu(Color.parseColor("#FBF6D9"), R.drawable.like);
+        menu.addSubMenu(Color.parseColor("#FBF6D9"), R.drawable.calculator);
         menu.addSubMenu(Color.parseColor("#8c9eff"), R.drawable.evaluation);
         menu.addSubMenu(Color.parseColor("#FBF6D9"), R.drawable.clender);
 
@@ -55,8 +55,8 @@ public class HomeActivity extends AppCompatActivity {
                     Intent in = new Intent(HomeActivity.this, StudentActivity.class);
                     startActivity(in);
                 } else if (i == 2) {
-                    Toast.makeText(HomeActivity.this, "About", Toast.LENGTH_SHORT).show();
-                    Intent in = new Intent(HomeActivity.this, AboutActivity.class);
+                    Toast.makeText(HomeActivity.this, "Calculator", Toast.LENGTH_SHORT).show();
+                    Intent in = new Intent(HomeActivity.this,ScientificCalculatorActivity.class);
                     startActivity(in);
                 } else if (i == 3) {
                     Toast.makeText(HomeActivity.this, "Feedback", Toast.LENGTH_SHORT).show();

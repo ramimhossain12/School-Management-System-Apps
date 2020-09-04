@@ -20,7 +20,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".PhoneNumberActivity"></activity>
+        <activity android:name=".ScientificCalculatorActivity"></activity>
+        <activity android:name=".CalculatorActivity" />
+        <activity android:name=".PhoneNumberActivity" />
         <activity android:name=".TeacherLoginActivity" />
         <activity android:name=".ChooseActivity" />
         <activity android:name=".MainActivity" />
